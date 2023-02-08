@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  depremyardimbackendmain:
+    image: depremyardimbackendmain
+    build:
+      context: .
+      dockerfile: ./Dockerfile
